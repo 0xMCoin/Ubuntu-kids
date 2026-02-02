@@ -73,7 +73,7 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen bg-[#fcfcfc]">
           <Header />
 
-          <div className="pt-0">{children}</div>
+          <div className="pt-0 overflow-hidden">{children}</div>
         </div>
         <Analytics />
       </body>
